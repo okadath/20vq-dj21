@@ -25,7 +25,7 @@ SECRET_KEY = 'fj7^kmd@2c=(*f^eqh!#=z*a&)quaglhl4y_$zwu4$1wnc9r(l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["20vq-codenvy-dev.us-west-2.elasticbeanstalk.com",]
 
 
 # Application definition
