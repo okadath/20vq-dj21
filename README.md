@@ -18,6 +18,11 @@ sudo python3.5 get-pip.py
 se usa
 `sudo python3.5 -m pip install bs4`
 
-python3.5 -m virtualenv venv --python=python3.5
+si el server de codenvy olvida el venv :
+sudo python3.5 -m pip install awsebcli
 
+python3.5 -m virtualenv venv --python=python3.5
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
 
